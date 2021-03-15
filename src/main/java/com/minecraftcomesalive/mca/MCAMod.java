@@ -1,5 +1,6 @@
 package com.minecraftcomesalive.mca;
 
+import com.minecraftcomesalive.mca.core.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,12 +24,16 @@ import java.util.stream.Collectors;
 public class MCAMod
 {
     public static final String MOD_ID = "mca";
+    public static final String NAME = "Minecraft Comes Alive";
+    public static final String VERSION = "@VERSION@";
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
 
     public MCAMod() {
+        Registration.register();
+
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -57,7 +62,7 @@ public class MCAMod
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo("MCAMod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)
