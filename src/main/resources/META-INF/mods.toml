@@ -22,9 +22,9 @@ modId="mca" #mandatory
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="Minecraft Comes Alive" #mandatory
-url= "https://minecraftcomesalive.com/"
+
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
-updateJSONURL="https://minecraftcomesalive.com/" # "https://change.me.example.invalid/updates.json" #optional
+#updateJSONURL="https://minecraftcomesalive.com/" # "https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
@@ -36,6 +36,7 @@ authors="sko.yokai" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 Replaces villagers with humans, adds marriage, children, and more!
+https://minecraftcomesalive.com/
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mca]] #optional
