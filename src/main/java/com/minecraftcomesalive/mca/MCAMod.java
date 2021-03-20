@@ -25,7 +25,6 @@ public class MCAMod
 {
     public static final String MOD_ID = "mca";
     public static final String NAME = "Minecraft Comes Alive";
-    public static final String VERSION = "@VERSION@";
 
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
