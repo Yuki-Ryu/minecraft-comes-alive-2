@@ -13,10 +13,10 @@ import net.minecraftforge.fml.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public  static final RegistryObject<Block> VILLAGER_SPAWNER_BLOCK = register("villager_spawner_b",() ->
-            new Block(AbstractBlock.Properties.create(Material.SAND).hardnessAndResistance(3,10).harvestLevel(3).sound(SoundType.SAND)));
-    public  static final RegistryObject<Block> VILLAGER_SPAWNER_Y = register("villager_spawner_y",() ->
-            new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3,10).sound(SoundType.METAL)));
+    //public  static final RegistryObject<Block> VILLAGER_SPAWNER_BLOCK = register("villager_spawner_b",() ->
+    //        new Block(AbstractBlock.Properties.create(Material.SAND).hardnessAndResistance(3,10).harvestLevel(3).sound(SoundType.SAND)));
+    //public  static final RegistryObject<Block> VILLAGER_SPAWNER_Y = register("villager_spawner_y",() ->
+    //        new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3,10).sound(SoundType.METAL)));
 
     static void register() {}
 
