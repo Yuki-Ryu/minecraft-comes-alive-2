@@ -6,6 +6,7 @@ import com.minecraftcomesalive.mca.items.ItemSpawnEgg;
 import com.minecraftcomesalive.mca.items.ItemVillagerEditor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.util.IItemProvider;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -23,14 +24,9 @@ public class ModItems {
     public static final ItemSpawnEgg EGG_MALE = new ItemSpawnEgg(true);
     public static final ItemSpawnEgg EGG_FEMALE = new ItemSpawnEgg(false);
 
-    public static final RegistryObject<Item> VILLAGER_SPAWNER = Registration.ITEMS.register("villager_spawner",() ->
-            new Item(new Item.Properties().group(ItemGroupMCA.MCA_MODS_TAB)));
-
     static void register() {
         ModItems.VILLAGER_EDITOR.getClass();
         ModItems.EGG_MALE.getClass();
         ModItems.EGG_FEMALE.getClass();
     }
-
-    //static void register() {}
 }

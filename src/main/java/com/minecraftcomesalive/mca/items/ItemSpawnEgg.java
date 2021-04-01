@@ -6,6 +6,7 @@ import com.minecraftcomesalive.mca.enums.EnumGender;
 import net.minecraft.item.Item;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Direction;
+import net.minecraft.util.IItemProvider;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.RegistryObject;
@@ -24,9 +25,14 @@ public class ItemSpawnEgg {
 
     }
 
+    public ItemSpawnEgg(RegistryObject<Item> isMale) {
+    }
+
     public static final RegistryObject<Item> EGG_MALE = Registration.ITEMS.register("egg_male", () ->
-            new Item(new Item.Properties().group(ItemGroupMCA.MCA_MODS_TAB)));
+            new Item(new Item.Properties().group(ItemGroupMCA.MCA)));
     public static final RegistryObject<Item> EGG_FEMALE = Registration.ITEMS.register("egg_female", () ->
-            new Item(new Item.Properties().group(ItemGroupMCA.MCA_MODS_TAB)));
+            new Item(new Item.Properties().group(ItemGroupMCA.MCA)));
+
+    static void register() {}
 
 }

@@ -2,12 +2,14 @@
   "block.MCA.silver_block": "Block of Silver",
   "block.MCA.silver_ore": "Silver Ore",
   "block.MCA.villager_spawner": "Villager Spawner",
+  "block.mca.villager_spawner": "Villager Spawner",
   "item.mca.villager_spawner": "Villager Spawner",
   "item.mca.spawn_egg": "Spawn Egg",
   "item.mca.egg_male": "Spawn Egg Male",
   "item.mca.egg_female": "Spawn Egg Female",
   "item.mca.villager_editor": "Villager Editor",
   "item.MCA.silver_ingot": "Silver Ingot",
+  "itemGroup.mca": "MCA",
   "itemGroup.MCA": "MCA",
   "itemGroupMCA.MCA": "MCA"
 }
