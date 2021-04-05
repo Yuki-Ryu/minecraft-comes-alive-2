@@ -4,6 +4,11 @@
   "block.MCA.villager_spawner": "Villager Spawner",
   "block.mca.villager_spawner": "Villager Spawner",
   "item.mca.villager_spawner": "Villager Spawner",
+
+  "block.mca.rose_gold_block": "Rose Gold Block",
+  "block.mca.rose_gold_ore": "Rose Gold ore",
+  "item.mca.rose_gold_ingot": "Rose Gold Ingot",
+
   "item.mca.spawn_egg": "Spawn Egg",
   "item.mca.egg_male": "Spawn Egg Male",
   "item.mca.egg_female": "Spawn Egg Female",

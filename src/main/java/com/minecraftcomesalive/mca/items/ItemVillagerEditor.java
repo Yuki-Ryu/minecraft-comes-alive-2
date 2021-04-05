@@ -9,7 +9,7 @@ import net.minecraftforge.fml.RegistryObject;
 public class ItemVillagerEditor {
 
     public static final RegistryObject<Item> VILLAGER_EDITOR = Registration.ITEMS.register("villager_editor", () ->
-            new Item(new Item.Properties().group(ItemGroupMCA.MCA)));
+            new Item(new Item.Properties().tab(ItemGroupMCA.MCA)));
 
     static void register() {}
 }
