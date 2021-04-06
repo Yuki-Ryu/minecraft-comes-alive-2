@@ -11,6 +11,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.forgespi.Environment;
 
 import java.util.function.Supplier;
 
@@ -38,6 +39,7 @@ public class ModBlocks {
             new MetalPressBlock(AbstractBlock.Properties.of(Material.METAL)
                     .strength(4, 20)
                     .sound(SoundType.METAL)));
+
 
     static void register() {}
 

@@ -15,6 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.ROSE_GOLD_ORE.get());
         simpleBlock(ModBlocks.ROSE_GOLD_BLOCK.get());
+        simpleBlock(ModBlocks.VILLAGER_SPAWNER.get());
 
     }
 }

@@ -18,10 +18,10 @@ public class ItemGroupMCA extends ItemGroup{
         super(p_i1853_1_, p_i1853_2_);
     }
 
-    static void register() {}
-
     @Override
     public ItemStack makeIcon() {
         return null;
     }
+
+    static void register() {}
 }
