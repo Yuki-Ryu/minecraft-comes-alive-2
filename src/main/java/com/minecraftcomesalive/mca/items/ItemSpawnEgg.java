@@ -2,22 +2,12 @@ package com.minecraftcomesalive.mca.items;
 
 import com.google.common.collect.Maps;
 import com.minecraftcomesalive.mca.api.ItemGroupMCA;
-import com.minecraftcomesalive.mca.core.ModItems;
-import com.minecraftcomesalive.mca.core.Registration;
-import com.minecraftcomesalive.mca.enums.EnumGender;
-import jdk.nashorn.internal.objects.annotations.Getter;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.util.Direction;
-import net.minecraft.util.IItemProvider;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.world.World;
-import net.minecraftforge.common.Tags;
-import net.minecraftforge.fml.RegistryObject;
+
 
 import java.util.Map;
 

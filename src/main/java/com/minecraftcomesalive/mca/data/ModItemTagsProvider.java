@@ -19,8 +19,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         copy(ModTags.Blocks.ORES_ROSE_GOLD, ModTags.Items.ORES_ROSE_GOLD);
         copy(Tags.Blocks.ORES, Tags.Items.ORES);
         copy(ModTags.Blocks.STORAGE_BLOCKS_ROSE_GOLD, ModTags.Items.STORAGE_BLOCKS_ROSE_GOLD);
-        //TODO
-        copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
+        //TODO copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
         copy(ModTags.Blocks.STORAGE_BLOCKS_VILLAGER_SPAWNER, ModTags.Items.STORAGE_BLOCKS_VILLAGER_SPAWNER);
         copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
 

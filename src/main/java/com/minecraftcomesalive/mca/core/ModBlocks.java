@@ -20,7 +20,6 @@ public class ModBlocks {
             new Block(AbstractBlock.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
-    //BlockVillagerSpawner VILLAGER_SPAWNER = new BlockVillagerSpawner();
 
     public static final RegistryObject<Block> ROSE_GOLD_ORE = register("rose_gold_ore", () ->
             new Block(AbstractBlock.Properties.of(Material.STONE)
