@@ -1,5 +1,6 @@
-"# minecraft-comes-alive-1.16.5-0.0.2" 
+![Image of Minecraft comes alive](https://octodex.github.com/minecraft-comes-alive/src/main/resources/mca.png)
+Minecraft comes alive
 
-git branch -m main 1.16.5
-git fetch origin
-git branch -u origin/1.16.5 1.16.5
+Replaces villagers with humans, adds marriage, children, and more!
+
+[link to Minecraft comes alive!](https://minecraftcomesalive.com)
