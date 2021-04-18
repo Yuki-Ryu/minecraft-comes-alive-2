@@ -1,3 +1,114 @@
+Build: 1.16.5-36.1.4 - Fri Apr 02 18:31:07 GMT 2021
+	cpw:
+		Fix broken java9hacks for j16 handling..
+		
+		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+
+=========
+Build: 1.16.5-36.1.3 - Tue Mar 30 01:05:30 GMT 2021
+	29855886+SizableShrimp:
+		Add generic EntityTeleportEvent (#7694)
+
+=========
+Build: 1.16.5-36.1.2 - Mon Mar 22 06:24:40 GMT 2021
+	covers1624:
+		Restore SS version, fixes findFieldInstanceChecks
+
+=========
+Build: 1.16.5-36.1.1 - Wed Mar 17 17:04:46 GMT 2021
+	diesieben07:
+		Fix sign textures being stitched onto every texture atlas (#7690)
+
+=========
+Build: 1.16.5-36.1.0 - Mon Mar 15 22:11:58 GMT 2021
+	lexmanos:
+		Fix AT order, missed exec line and bump for RB.
+
+=========
+Build: 1.16.5-36.0.63 - Mon Mar 15 21:08:56 GMT 2021
+	diesieben07:
+		Fix wrong eye height when entity size changes (esp. baby animals) (#7628)
+
+=========
+Build: 1.16.5-36.0.62 - Mon Mar 15 21:02:36 GMT 2021
+	diesieben07:
+		Allow ITeleporter to override the vanilla teleport sound (#7682)
+
+=========
+Build: 1.16.5-36.0.61 - Mon Mar 15 20:20:21 GMT 2021
+	29855886+SizableShrimp:
+		Fix datapack exception related to EnumArgument with siblings (#7686)
+		
+		Invalid enum constants are now properly thrown as a CommandSyntaxException
+
+=========
+Build: 1.16.5-36.0.60 - Mon Mar 15 19:29:01 GMT 2021
+	42383791+kaydogz:
+		Add support for custom WoodTypes (#7623)
+
+=========
+Build: 1.16.5-36.0.59 - Mon Mar 15 19:19:16 GMT 2021
+	lexmanos:
+		Use JGit instead of GrGit now that jcenter is going away.
+		Update missed mapped name in MDK.
+
+=========
+Build: 1.16.5-36.0.58 - Sat Mar 13 19:07:24 GMT 2021
+	diesieben07:
+		Fix incorrectly replaced SRG names
+
+	gigaherz:
+		Fix yet another copypasta.
+
+	gigaherz:
+		Bump nashorn wrapper version.
+
+=========
+Build: 1.16.5-36.0.55 - Fri Mar 12 18:51:48 GMT 2021
+	AterAnimAvis:
+		Fix potential Deadlock when using custom Item entities. (#7532)
+		
+		Be careful when adding Entities during Chunk Load (#7519) 
+
+=========
+Build: 1.16.5-36.0.54 - Fri Mar 12 02:04:32 GMT 2021
+	gigaherz:
+		Fix copypasta.
+
+=========
+Build: 1.16.5-36.0.53 - Fri Mar 12 00:11:22 GMT 2021
+	curle:
+		Automatically fix some issues with configurations deemed invalid for simple reasons (#7671)
+
+=========
+Build: 1.16.5-36.0.52 - Thu Mar 11 20:59:54 GMT 2021
+	gigaherz:
+		Introduce a new feature that lets mods know if optional mods and optional network channels are present in the remote.
+		Allow connections from forge versions that don't have the vanilla splitter.
+
+	gigaherz:
+		Bulk update license year, and use replacement variable so that the current year is always used.
+
+	gigaherz:
+		Bump SpecialSource
+
+	gigaherz:
+		Add coremod that injects bouncer methods to work around name conflicts with official names.
+		Fixes a binary break.
+
+=========
+Build: 1.16.5-36.0.48 - Tue Mar 09 22:22:20 GMT 2021
+	lexmanos:
+		Update to FG4, and Gradle 6.8.
+
+	lexmanos:
+		Regenerate patches with relative headers. This should lower conflicts in future PRs.
+		Convert Forge to use Official mappings.
+		Mojang released their obfuscation mappings but we have not used them up until now due to wanting to get their license to be more explicitly permissive.
+		It is clear that their intent is to allow us to use their names for developing mods like this.
+		See the full wording, and our interpretation here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+
+=========
 Build: 1.16.5-36.0.46 - Thu Mar 04 20:15:10 GMT 2021
 	diesieben07:
 		Support splitting vanilla packets that are too large on forge<->forge connections (#7485)

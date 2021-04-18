@@ -6,7 +6,9 @@ import com.minecraftcomesalive.mca.blocks.metalpress.MetalPressBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.SpawnerBlock;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.merchant.villager.VillagerData;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.ToolType;
@@ -17,7 +19,9 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final RegistryObject<Block> VILLAGER_SPAWNER = register("villager_spawner",() ->
-            new Block(AbstractBlock.Properties.of(Material.METAL)
+            new SpawnerBlock(AbstractBlock.Properties.of(Material.METAL)
+
+                    .speedFactor(VillagerData.getMinXpPerLevel(7))
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
 

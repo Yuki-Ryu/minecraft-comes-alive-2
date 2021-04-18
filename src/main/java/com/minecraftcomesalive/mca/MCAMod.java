@@ -31,9 +31,10 @@ public class MCAMod
 
 
     public MCAMod() {
+        // Register MCA mod game
         Registration.register();
 
-        // Register the setup method for modloading
+        // Register the setu method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);

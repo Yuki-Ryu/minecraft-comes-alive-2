@@ -1,7 +1,6 @@
 package com.minecraftcomesalive.mca.core;
 
 import com.minecraftcomesalive.mca.MCAMod;
-import com.minecraftcomesalive.mca.items.ItemSpawnEgg;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.Item;

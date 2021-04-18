@@ -1,16 +1,16 @@
 {
-  "block.MCA.silver_block": "Block of Silver",
-  "block.MCA.silver_ore": "Silver Ore",
   "block.mca.metal_press": "Metal Press",
-  "item.MCA.silver_ingot": "Silver Ingot",
 
-  "block.MCA.villager_spawner": "Villager Spawner",
   "block.mca.villager_spawner": "Villager Spawner",
   "item.mca.villager_spawner": "Villager Spawner",
 
   "block.mca.rose_gold_block": "Rose Gold Block",
   "block.mca.rose_gold_ore": "Rose Gold Ore",
   "item.mca.rose_gold_ingot": "Rose Gold Ingot",
+
+  "block.mca.silver_block": "Block of Silver",
+  "block.mca.silver_ore": "Silver Ore",
+  "item.mca.silver_ingot": "Silver Ingot",
 
   "item.mca.spawn_egg": "Spawn Egg",
   "item.mca.egg_male": "Spawn Egg Male",
@@ -20,5 +20,6 @@
 
   "itemGroup.mca": "MCA",
   "itemGroup.MCA": "MCA",
+  "itemGroupMCA.mca": "MCA",
   "itemGroupMCA.MCA": "MCA"
 }
