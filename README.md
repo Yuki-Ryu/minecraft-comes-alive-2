@@ -11,7 +11,7 @@ is a mod that adds improved villagers to Minecraft. Meet people, get married, ha
 2. Forge 36.1.4
 
 
-## Links and Downloads
+## Links
 1. [link to Minecraft comes alive!](https://minecraftcomesalive.com)
 2. [link to Discord](https://discord.gg/U7A8xqY)
 
@@ -20,7 +20,7 @@ Discord Server (#gems-and-chaos channel is the easiest way to get quick question
 
 
 
-# Stable Release
+# Stable Release and Downloads
 
 I only upload builds to Minecraft CurseForge. If you downloaded the mod from somewhere other than Curse/CurseForge or their launcher (or as part of a modpack in some cases), I cannot make any guarantees about the file or its contents, as it was uploaded without my permission.
 1. Gradle Download: [6.8.1](https://gradle.org/releases/)
