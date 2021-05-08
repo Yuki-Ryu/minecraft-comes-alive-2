@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mca:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "mca:silver_block"
+  }
+}
