@@ -13,7 +13,7 @@ is a mod that adds improved villagers to Minecraft. Meet people, get married, ha
 
 ## Links
 1. [link to Minecraft comes alive!](https://minecraftcomesalive.com)
-2. [link to Discord](https://discord.gg/U7A8xqY)
+2. [link to Discord](https://discord.gg/WuRTFQXTU2)
 
 Discord Server (#gems-and-chaos channel is the easiest way to get quick questions answered. Do not use to report bugs!)
 
