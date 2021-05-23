@@ -19,6 +19,7 @@ public class ItemSpawnEgg extends Item{
     private final int secondaryColor;
     //private final Object gender;
 
+    //FIXME
     public static final Item EGG_MALE = register("egg_male", new SpawnEggItem(EntityType.VILLAGER, 5651507, 12422002, (new Item.Properties()).tab(ItemGroupMCA.MCA)));
     public static final Item EGG_FEMALE = register("egg_female", new SpawnEggItem(EntityType.VILLAGER, 5651507, 12422002, (new Item.Properties()).tab(ItemGroupMCA.MCA)));
 
@@ -63,6 +64,8 @@ public class ItemSpawnEgg extends Item{
         return Registry.register(Registry.ITEM, key, itemIn);
     }
 
+
+    // FIXME
     /*private final EnumGender gender;
 
     public ItemSpawnEgg(EnumGender gender, Item.Properties properties) {

@@ -12,6 +12,8 @@ public class ModTags {
     public static final class Blocks {
         public static final ITag.INamedTag<Block> ORES_ROSE_GOLD= forge("ores/rose_gold");
         public static final ITag.INamedTag<Block> STORAGE_BLOCKS_ROSE_GOLD = forge("storage_blocks/rose_gold");
+        public static final ITag.INamedTag<Block> ORES_SILVER = forge("ores/silver");
+        public static final ITag.INamedTag<Block> STORAGE_BLOCKS_SILVER = forge("storage_blocks/silver");
         public static final ITag.INamedTag<Block> STORAGE_BLOCKS_VILLAGER_SPAWNER = forge("storage_blocks/villager_spawner");
 
         private static ITag.INamedTag<Block> forge(String path) {
@@ -26,10 +28,12 @@ public class ModTags {
     public static final class Items {
         public static final ITag.INamedTag<Item> ORES_ROSE_GOLD = forge("ores/rose_gold");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_ROSE_GOLD = forge("storage_blocks/rose_gold");
+        public static final ITag.INamedTag<Item> ORES_SILVER = forge("ores/silver");
+        public static final ITag.INamedTag<Item> STORAGE_BLOCKS_SILVER = forge("storage_blocks/silver");
         public static final ITag.INamedTag<Item> STORAGE_BLOCKS_VILLAGER_SPAWNER = forge("storage_blocks/villager_spawner");
 
         public static final ITag.INamedTag<Item> INGOTS_ROSE_GOLD = forge("ingots/rose_gold");
-
+        public static final ITag.INamedTag<Item> INGOTS_SILVER = forge("ingots/silver");
 
         private static ITag.INamedTag<Item> forge(String path) {
             return ItemTags.bind(new ResourceLocation("forge", path).toString());

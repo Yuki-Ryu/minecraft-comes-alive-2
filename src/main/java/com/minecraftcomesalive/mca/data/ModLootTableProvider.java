@@ -41,6 +41,8 @@ public class ModLootTableProvider extends LootTableProvider {
         protected void addTables() {
             dropSelf(ModBlocks.ROSE_GOLD_BLOCK.get());
             dropSelf(ModBlocks.ROSE_GOLD_ORE.get());
+            dropSelf(ModBlocks.SILVER_BLOCK.get());
+            dropSelf(ModBlocks.SILVER_ORE.get());
             dropSelf(ModBlocks.VILLAGER_SPAWNER.get());
         }
 

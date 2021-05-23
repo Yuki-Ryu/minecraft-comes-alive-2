@@ -14,12 +14,15 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        withExistingParent("silver_block", modLoc("block/silver_block"));
+        withExistingParent("silver_ore", modLoc("block/silver_ore"));
         withExistingParent("rose_gold_block", modLoc("block/rose_gold_block"));
         withExistingParent("rose_gold_ore", modLoc("block/rose_gold_ore"));
         withExistingParent("villager_spawner", modLoc("block/villager_spawner"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
+        builder(itemGenerated, "silver_ingot");
         builder(itemGenerated, "rose_gold_ingot");
     }
 

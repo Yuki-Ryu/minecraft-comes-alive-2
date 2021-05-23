@@ -10,7 +10,7 @@ import net.minecraftforge.fml.RegistryObject;
 public final class ModRecipes {
     public static final class Types {
         public static final IRecipeType<PressingRecipe> PRESSING = IRecipeType.register(
-                MCAMod.MOD_ID + "pressing");
+                MCAMod.MOD_ID + ":pressing");
 
         private Types() {}
     }

@@ -11,17 +11,20 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
     }
 }
+
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'maven-publish'
 
+
 version = '2.1' + "." + buildNumber
 group = 'com.minecraftcomesalive.mca'
 archivesBaseName = 'mca'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
+//sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 
 javadoc {
     failOnError = false
@@ -52,6 +55,12 @@ minecraft {
 
     versionProps['BUILD_NUMBER']=code.toString()
     versionProps.store(versionPropsFile.newWriter(), null)
+
+    //version = "1.12.2-14.23.0.2491"
+    //runDir = "run"
+    //mappings = "snapshot_20170624"
+    //replaceIn "mca/MCAMod.java"
+    //replace   "@VERSION@", "${project.minecraft.version}-${project.version}" + "." + buildNumber
 
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.

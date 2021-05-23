@@ -7,7 +7,7 @@ import com.minecraftcomesalive.mca.api.ItemGroupMCA;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ItemVillagerEditor {
-
+    //FIXME
     public static final RegistryObject<Item> VILLAGER_EDITOR = Registration.ITEMS.register("villager_editor", () ->
             new Item(new Item.Properties().tab(ItemGroupMCA.MCA)));
 
